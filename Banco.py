@@ -2,8 +2,6 @@
 # pip install mysql-connector-python <-- RODAR esse comando no console do python
 # lembrar de instalar o connector do mysql
 # criar o banco de dados no Mysql 
-
-
 import mysql.connector
 
 class Banco():
@@ -12,7 +10,7 @@ class Banco():
             host="localhost",
             user="root",
             password="",
-            database="testesergio_db"
+            database="caiobattisti_db"
         )
         self.createTable()
 
